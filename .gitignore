@@ -1,0 +1,18 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local secret material
+.secrets/
+credentials/
+*.secret
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.dump
+*.bak
